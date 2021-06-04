@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="heading">
+    <h1>Books</h1>
+  </div>
+  <div id="books"><h1>Books: </h1></div>
+  <div id="form">
+    <div class="element">
+      <label for="author">Author: </label>
+      <input type="text" id="author"><br>
+    </div>
+    <div class="element">
+      <label for="title">Title: </label>
+      <input type="text" id="title"><br>
+    </div>
+    <div class="element">
+      <label for="pages">No of Pages: </label>
+      <input type="number" id="pages">
+    </div>
+    <div class="element">
+      <p>Read: </p>
+      <label for="radio">Yes </label>
+      <input type="radio" name="read" id="Yes" value="Y">
+      <label for="radio">No </label>
+      <input type="radio" name="read" id="No" value="N">
+    </div>
+    <div class="element">
+      <button type="submit" id="subbook">Submit</button>
+    </div>
+  </div>
+  <div class="bookbtn">
+    <button class="btn" id = "bookbtn">
+      Add Book
+    </button>
+  </div>
+</body>
+<script src="/app.js"></script>
+</html>

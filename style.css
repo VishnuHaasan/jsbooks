@@ -1,0 +1,14 @@
+.heading {
+  text-align: center;
+}
+.bookbtn {
+  text-align: center;
+}
+#form {
+  margin-top: 50px;  
+  display: none;
+}
+.bookele {
+  text-align: center;
+  border: 2px solid black;
+}
